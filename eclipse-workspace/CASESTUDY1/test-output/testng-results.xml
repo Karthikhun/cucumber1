@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="25309" started-at="2019-11-18T04:27:59Z" finished-at="2019-11-18T04:28:25Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="25309" started-at="2019-11-18T04:27:59Z" finished-at="2019-11-18T04:28:25Z">
+      <class name="TestMeApp.NewTest">
+        <test-method status="PASS" signature="startbrowser()[pri:0, instance:TestMeApp.NewTest@256216b3]" name="startbrowser" is-config="true" duration-ms="14040" started-at="2019-11-18T09:57:59Z" finished-at="2019-11-18T09:58:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startbrowser -->
+        <test-method status="PASS" signature="TestLogin()[pri:0, instance:TestMeApp.NewTest@256216b3]" name="TestLogin" duration-ms="3478" started-at="2019-11-18T09:58:13Z" finished-at="2019-11-18T09:58:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestLogin -->
+        <test-method status="PASS" signature="getresult(org.testng.ITestResult)[pri:0, instance:TestMeApp.NewTest@256216b3]" name="getresult" is-config="true" duration-ms="11" started-at="2019-11-18T09:58:17Z" finished-at="2019-11-18T09:58:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TestLogin status=SUCCESS method=NewTest.TestLogin()[pri:0, instance:TestMeApp.NewTest@256216b3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getresult -->
+        <test-method status="PASS" signature="TestCart()[pri:0, instance:TestMeApp.NewTest@256216b3]" name="TestCart" duration-ms="1455" started-at="2019-11-18T09:58:17Z" finished-at="2019-11-18T09:58:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestCart -->
+        <test-method status="PASS" signature="getresult(org.testng.ITestResult)[pri:0, instance:TestMeApp.NewTest@256216b3]" name="getresult" is-config="true" duration-ms="1" started-at="2019-11-18T09:58:18Z" finished-at="2019-11-18T09:58:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TestCart status=SUCCESS method=NewTest.TestCart()[pri:0, instance:TestMeApp.NewTest@256216b3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getresult -->
+        <test-method status="PASS" signature="TestPayment()[pri:0, instance:TestMeApp.NewTest@256216b3]" name="TestPayment" duration-ms="5397" started-at="2019-11-18T09:58:18Z" finished-at="2019-11-18T09:58:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestPayment -->
+        <test-method status="PASS" signature="getresult(org.testng.ITestResult)[pri:0, instance:TestMeApp.NewTest@256216b3]" name="getresult" is-config="true" duration-ms="1" started-at="2019-11-18T09:58:24Z" finished-at="2019-11-18T09:58:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TestPayment status=SUCCESS method=NewTest.TestPayment()[pri:0, instance:TestMeApp.NewTest@256216b3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getresult -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:TestMeApp.NewTest@256216b3]" name="afterTest" is-config="true" duration-ms="901" started-at="2019-11-18T09:58:24Z" finished-at="2019-11-18T09:58:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- TestMeApp.NewTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
